@@ -19,4 +19,4 @@ for row in data:
     row[1:] = map(int, row[1:])
     for i in range(6):
         a = row[i * 5 + 3]
-        print(a)
+    print(a)
